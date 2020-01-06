@@ -392,7 +392,7 @@ h5.section-header {
 
 @media (max-width: 570px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
   }
   .modal-container {
     padding: 15px;
