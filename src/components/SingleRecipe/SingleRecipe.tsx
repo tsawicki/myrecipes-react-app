@@ -1,5 +1,6 @@
 import React from "react";
-import { Recipe } from "../models/Recipe.model";
+import "./SingleRecipe.css";
+import { Recipe } from "../../models/Recipe.model";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEdit, faTrash } from "@fortawesome/free-solid-svg-icons";
 

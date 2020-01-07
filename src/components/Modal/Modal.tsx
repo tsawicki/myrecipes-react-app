@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
-import Form from "./Form";
-import { Recipe } from "../models/Recipe.model";
+import "./Modal.css";
+import Form from "../Form/Form";
+import { Recipe } from "../../models/Recipe.model";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 

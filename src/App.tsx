@@ -3,9 +3,9 @@ import "./App.css";
 import { Recipe } from "./models/Recipe.model";
 import { recipesService } from "./services/recipesService";
 import { utils } from "./utils/utils";
-import Header from "./components/Header";
-import Modal from "./components/Modal";
-import RecipesList from "./components/RecipesList";
+import Header from "./components/Header/Header";
+import Modal from "./components/Modal/Modal";
+import RecipesList from "./components/RecipesList/RecipesList";
 
 const App: React.FunctionComponent = () => {
   const newRecipe: Recipe = {

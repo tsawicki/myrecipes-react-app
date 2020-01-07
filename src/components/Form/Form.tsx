@@ -1,5 +1,6 @@
 import React, { useState, FormEvent } from "react";
-import { Recipe } from "../models/Recipe.model";
+import "./Form.css";
+import { Recipe } from "../../models/Recipe.model";
 
 interface OwnProps {
   recipe: Recipe;

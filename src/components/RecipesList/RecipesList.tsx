@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import SingleRecipe from "./SingleRecipe";
-import { Recipe } from "../models/Recipe.model";
+import "./RecipesList.css";
+import SingleRecipe from "../SingleRecipe/SingleRecipe";
+import { Recipe } from "../../models/Recipe.model";
 
 interface OwnProps {
   recipes: Recipe[];
